@@ -1,0 +1,975 @@
+{
+  "collection_name": "government_farmer_schemes",
+  "description": "All central and state government schemes for Indian farmers, structured for semantic search in ChromaDB",
+  "documents": [
+    {
+      "id": "central_001",
+      "document": "PM-KISAN Pradhan Mantri Kisan Samman Nidhi provides income support of 6000 rupees per year in three equal instalments to all landholding farmer families. Applicable to all landholding farmer families irrespective of the size of landholdings. Apply at pmkisan.gov.in",
+      "metadata": {
+        "scheme_name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Income Support & Credit",
+        "benefit_type": "Direct Cash Transfer",
+        "benefit_amount": "₹6,000/year (3 instalments of ₹2,000)",
+        "eligibility": "All landholding farmer families",
+        "launch_year": 2018,
+        "apply_url": "pmkisan.gov.in",
+        "keywords": ["income support", "cash transfer", "kisan", "pm kisan", "financial aid", "annual support", "landholding"],
+        "tags": ["income", "cash", "all farmers", "central scheme"]
+      }
+    },
+    {
+      "id": "central_002",
+      "document": "Kisan Credit Card KCC allows farmers to avail short-term loans without stringent credit checks at affordable interest rates to acquire seeds, fertilizers, and farming machinery. Apply via nationalised banks, co-operative banks, or rural banks.",
+      "metadata": {
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Income Support & Credit",
+        "benefit_type": "Credit / Loan",
+        "benefit_amount": "Up to ₹5 lakh (2025-26 limit)",
+        "eligibility": "All farmers",
+        "apply_url": "Nationalised banks, co-operative banks, rural banks",
+        "keywords": ["credit card", "loan", "short-term credit", "seeds", "fertilizer", "machinery", "kisan credit"],
+        "tags": ["credit", "loan", "bank", "inputs", "all farmers", "central scheme"]
+      }
+    },
+    {
+      "id": "central_003",
+      "document": "Modified Interest Subvention Scheme MISS provides short-term agricultural loans up to 3 lakh rupees at an annual interest rate of 7 percent. An additional 3 percent subvention is provided for prompt and timely repayment, effectively making the rate 4 percent for punctual borrowers.",
+      "metadata": {
+        "scheme_name": "Modified Interest Subvention Scheme (MISS)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Income Support & Credit",
+        "benefit_type": "Interest Subvention / Loan",
+        "benefit_amount": "Loans up to ₹3 lakh at 7% (4% for timely repayment)",
+        "eligibility": "All farmers taking short-term agricultural loans",
+        "keywords": ["interest subvention", "low interest loan", "agricultural loan", "credit", "timely repayment"],
+        "tags": ["credit", "loan", "interest subsidy", "central scheme"]
+      }
+    },
+    {
+      "id": "central_004",
+      "document": "PMFBY Pradhan Mantri Fasal Bima Yojana provides crop insurance against natural calamities, pests, and diseases. Premium rates are 2 percent for Kharif crops, 1.5 percent for Rabi crops, and 5 percent for horticultural crops. Apply at pmfby.gov.in",
+      "metadata": {
+        "scheme_name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Crop Insurance & Risk Protection",
+        "benefit_type": "Crop Insurance",
+        "benefit_amount": "Full coverage against losses; premium: 2% Kharif, 1.5% Rabi, 5% Horticulture",
+        "eligibility": "All farmers growing notified crops",
+        "apply_url": "pmfby.gov.in",
+        "keywords": ["crop insurance", "fasal bima", "natural calamity", "pest", "disease", "kharif", "rabi", "horticulture", "risk protection"],
+        "tags": ["insurance", "crop loss", "natural disaster", "central scheme"]
+      }
+    },
+    {
+      "id": "central_005",
+      "document": "Restructured Weather Based Crop Insurance Scheme RWBCIS launched alongside PMFBY in 2016 to protect farmers from losses due to adverse weather conditions including rainfall, temperature, wind, and humidity.",
+      "metadata": {
+        "scheme_name": "Restructured Weather Based Crop Insurance Scheme (RWBCIS)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Crop Insurance & Risk Protection",
+        "benefit_type": "Weather-Based Crop Insurance",
+        "eligibility": "All farmers in notified areas",
+        "launch_year": 2016,
+        "keywords": ["weather insurance", "rainfall", "temperature", "wind", "humidity", "crop loss", "climate risk"],
+        "tags": ["insurance", "weather", "climate", "crop loss", "central scheme"]
+      }
+    },
+    {
+      "id": "central_006",
+      "document": "MSP Minimum Support Price system ensures fair prices for farmers. MSP is recommended by CACP and declared for 23 crops, protecting farmers from distress sales in the open market.",
+      "metadata": {
+        "scheme_name": "MSP (Minimum Support Price) System",
+        "level": "Central",
+        "state": "All India",
+        "category": "Crop Insurance & Risk Protection",
+        "benefit_type": "Price Support / Procurement",
+        "benefit_amount": "Declared per crop per quintal (e.g., Wheat ₹2,425/quintal, Paddy ₹2,300/quintal)",
+        "eligibility": "All farmers growing the 23 notified crops",
+        "keywords": ["minimum support price", "MSP", "fair price", "procurement", "CACP", "distress sale", "23 crops"],
+        "tags": ["price support", "procurement", "market", "central scheme"]
+      }
+    },
+    {
+      "id": "central_007",
+      "document": "PM Krishi Sinchayee Yojana PMKSY Har Khet Ko Pani focuses on improving water use efficiency through micro-irrigation including drip and sprinkler systems with the goal of ensuring every field gets water.",
+      "metadata": {
+        "scheme_name": "PM Krishi Sinchayee Yojana (PMKSY) — Har Khet Ko Pani",
+        "level": "Central",
+        "state": "All India",
+        "category": "Irrigation & Water",
+        "benefit_type": "Irrigation Infrastructure",
+        "eligibility": "All farmers",
+        "keywords": ["irrigation", "drip irrigation", "sprinkler", "water", "sinchayee", "har khet ko pani", "micro irrigation"],
+        "tags": ["irrigation", "water", "drip", "sprinkler", "central scheme"]
+      }
+    },
+    {
+      "id": "central_008",
+      "document": "Per Drop More Crop PDMC launched in 2015-16 offers financial assistance of 55 percent to small and marginal farmers and 45 percent to others for micro-irrigation installation through drip and sprinkler systems.",
+      "metadata": {
+        "scheme_name": "Per Drop More Crop (PDMC)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Irrigation & Water",
+        "benefit_type": "Subsidy on Micro-Irrigation",
+        "benefit_amount": "55% subsidy for small/marginal farmers; 45% for others",
+        "eligibility": "All farmers; higher subsidy for small and marginal farmers",
+        "launch_year": 2015,
+        "keywords": ["drip irrigation", "sprinkler", "micro irrigation", "water efficiency", "subsidy", "small farmers", "marginal farmers"],
+        "tags": ["irrigation", "subsidy", "drip", "water saving", "small farmers", "central scheme"]
+      }
+    },
+    {
+      "id": "central_009",
+      "document": "PM-KUSUM Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan subsidises farmers to install solar irrigation pumps. Each farmer receives a 60 percent subsidy to set up tube wells and pump sets. The scheme aims to increase solar capacity up to 34800 MW by March 2026.",
+      "metadata": {
+        "scheme_name": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Irrigation & Water",
+        "benefit_type": "Subsidy on Solar Pump",
+        "benefit_amount": "60% subsidy on solar irrigation pumps",
+        "eligibility": "All farmers",
+        "keywords": ["solar pump", "solar energy", "irrigation", "tube well", "pump set", "renewable energy", "KUSUM"],
+        "tags": ["solar", "energy", "irrigation", "subsidy", "pump", "central scheme"]
+      }
+    },
+    {
+      "id": "central_010",
+      "document": "Soil Health Card SHC Scheme assists state governments in issuing Soil Health Cards to farmers with detailed soil testing reports. As of 2024-25, 75 lakh soil samples collected with 1000 soil testing labs set up across India. Apply at soilhealth.dac.gov.in",
+      "metadata": {
+        "scheme_name": "Soil Health Card (SHC) Scheme",
+        "level": "Central",
+        "state": "All India",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Soil Testing / Advisory",
+        "eligibility": "All farmers",
+        "apply_url": "soilhealth.dac.gov.in",
+        "keywords": ["soil health", "soil testing", "soil card", "fertility", "nutrients", "lab", "soil report"],
+        "tags": ["soil", "testing", "advisory", "central scheme"]
+      }
+    },
+    {
+      "id": "central_011",
+      "document": "Paramparagat Krishi Vikas Yojana PKVY promotes organic farming clusters, reducing dependency on chemicals. Enhances soil health and boosts organic produce markets through cluster-based implementation.",
+      "metadata": {
+        "scheme_name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Organic Farming Support",
+        "eligibility": "Farmers joining organic farming clusters",
+        "keywords": ["organic farming", "paramparagat", "chemical free", "soil health", "cluster farming", "PKVY"],
+        "tags": ["organic", "soil", "cluster", "natural farming", "central scheme"]
+      }
+    },
+    {
+      "id": "central_012",
+      "document": "National Mission on Natural Farming NMNF is a standalone Centrally Sponsored Scheme with a total outlay of 2481 crore rupees to promote natural farming in mission mode across the country providing training support and financial aid to farmers who adopt natural farming practices.",
+      "metadata": {
+        "scheme_name": "National Mission on Natural Farming (NMNF)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Financial Aid + Training for Natural Farming",
+        "benefit_amount": "₹2,481 crore total outlay",
+        "eligibility": "All farmers willing to adopt natural farming",
+        "keywords": ["natural farming", "zero budget", "training", "financial aid", "chemical free", "mission"],
+        "tags": ["natural farming", "organic", "training", "subsidy", "central scheme"]
+      }
+    },
+    {
+      "id": "central_013",
+      "document": "e-NAM National Agriculture Market integrates APMCs across India into a single digital market platform. Promotes competition and helps farmers get better prices by enabling them to sell produce online reducing dependence on middlemen. Apply at enam.gov.in",
+      "metadata": {
+        "scheme_name": "e-NAM (National Agriculture Market)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Market Access & Selling",
+        "benefit_type": "Digital Market Platform",
+        "eligibility": "All farmers",
+        "apply_url": "enam.gov.in",
+        "keywords": ["e-NAM", "online market", "APMC", "digital mandi", "sell produce", "better price", "middlemen", "e-commerce"],
+        "tags": ["market", "digital", "selling", "APMC", "price", "central scheme"]
+      }
+    },
+    {
+      "id": "central_014",
+      "document": "RKVY-RAFTAAR Rashtriya Krishi Vikas Yojana empowers states to plan agriculture strategies based on local needs funding agricultural innovation infrastructure development and startups in agri-business.",
+      "metadata": {
+        "scheme_name": "RKVY-RAFTAAR (Rashtriya Krishi Vikas Yojana)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Market Access & Selling",
+        "benefit_type": "Agricultural Development Funding",
+        "eligibility": "State governments, farmer groups, agri-startups",
+        "keywords": ["RKVY", "krishi vikas", "agri startup", "infrastructure", "innovation", "agribusiness", "state level planning"],
+        "tags": ["development", "startup", "infrastructure", "agribusiness", "central scheme"]
+      }
+    },
+    {
+      "id": "central_015",
+      "document": "Agriculture Infrastructure Fund AIF launched with an allocation of 1 lakh crore rupees provides medium to long-term debt financing for post-harvest infrastructure. Offers interest subvention of 3 percent per annum on loans up to 2 crore rupees for up to 7 years. Since inception in 2020, AIF has sanctioned 51364 crore rupees for 84159 projects including warehouses cold storage and processing centres.",
+      "metadata": {
+        "scheme_name": "Agriculture Infrastructure Fund (AIF)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Infrastructure & Storage",
+        "benefit_type": "Debt Financing + Interest Subvention",
+        "benefit_amount": "3% interest subvention on loans up to ₹2 crore for 7 years",
+        "eligibility": "Farmers, FPOs, cooperatives, agri-entrepreneurs",
+        "launch_year": 2020,
+        "keywords": ["warehouse", "cold storage", "post harvest", "infrastructure", "storage", "processing", "loan", "interest subvention", "AIF"],
+        "tags": ["storage", "warehouse", "cold chain", "loan", "post-harvest", "central scheme"]
+      }
+    },
+    {
+      "id": "central_016",
+      "document": "Sub-Mission on Agricultural Mechanisation SMAM accelerates spread of agricultural mechanisation in India. Provides a subsidy of up to 50 percent on farm equipment especially for small and marginal farmers SC ST farmers and those in North-East regions. Apply at agrimachinery.nic.in",
+      "metadata": {
+        "scheme_name": "Sub-Mission on Agricultural Mechanisation (SMAM)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Subsidy on Farm Equipment",
+        "benefit_amount": "Up to 50% subsidy on farm equipment",
+        "eligibility": "All farmers; higher for small/marginal, SC/ST, North-East farmers",
+        "apply_url": "agrimachinery.nic.in",
+        "keywords": ["mechanisation", "farm equipment", "tractor", "machinery", "subsidy", "SC ST", "small farmers", "SMAM"],
+        "tags": ["machinery", "mechanisation", "subsidy", "equipment", "SC/ST", "central scheme"]
+      }
+    },
+    {
+      "id": "central_017",
+      "document": "Namo Drone Didi Scheme is a 1261 crore rupee scheme to provide drones to 15000 Women Self Help Groups for offering rental services to farmers for applying fertilisers and pesticides. SHGs receive an 80 percent subsidy up to 8 lakh rupees and earn at least 1 lakh rupees annually from drone rental income.",
+      "metadata": {
+        "scheme_name": "Namo Drone Didi Scheme",
+        "level": "Central",
+        "state": "All India",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Drone Subsidy for SHGs + Rental Income",
+        "benefit_amount": "80% subsidy up to ₹8 lakh; ₹1 lakh+ annual income from drone rentals",
+        "eligibility": "Women Self Help Groups (SHGs)",
+        "keywords": ["drone", "women SHG", "self help group", "fertiliser spraying", "pesticide", "rental", "technology", "women empowerment"],
+        "tags": ["drone", "women", "SHG", "technology", "mechanisation", "central scheme"]
+      }
+    },
+    {
+      "id": "central_018",
+      "document": "Digital Agriculture Mission DAM approved by the Union Cabinet in September 2024 with an outlay of 2817 crore rupees. An umbrella scheme creating Digital Public Infrastructure through two pillars Agri Stack and Krishi Decision Support System enabling farmer-centric digital services for timely and reliable information.",
+      "metadata": {
+        "scheme_name": "Digital Agriculture Mission (DAM)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Digital Infrastructure / Services",
+        "benefit_amount": "₹2,817 crore total outlay",
+        "eligibility": "All farmers",
+        "launch_year": 2024,
+        "keywords": ["digital agriculture", "Agri Stack", "decision support", "digital identity", "technology", "information", "DAM"],
+        "tags": ["digital", "technology", "data", "infrastructure", "central scheme"]
+      }
+    },
+    {
+      "id": "central_019",
+      "document": "Mission for Integrated Development of Horticulture MIDH focuses on the overall growth of the horticulture sector boosting production improving nutritional security and augmenting farmer incomes through integrated support.",
+      "metadata": {
+        "scheme_name": "Mission for Integrated Development of Horticulture (MIDH)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Horticulture Development Support",
+        "eligibility": "Farmers engaged in horticulture crops",
+        "keywords": ["horticulture", "fruits", "vegetables", "flowers", "MIDH", "nutritional security", "income augmentation"],
+        "tags": ["horticulture", "fruits", "vegetables", "income", "central scheme"]
+      }
+    },
+    {
+      "id": "central_020",
+      "document": "National Food Security Mission NFSM aims to expand the production of staples like rice wheat pulses and commercial crops while restoring soil fertility and increasing agricultural productivity sustainably.",
+      "metadata": {
+        "scheme_name": "National Food Security Mission (NFSM)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Crop Production Support",
+        "eligibility": "Farmers growing rice, wheat, pulses, commercial crops",
+        "keywords": ["food security", "rice", "wheat", "pulses", "productivity", "soil fertility", "NFSM", "staple crops"],
+        "tags": ["food security", "staples", "rice", "wheat", "pulses", "central scheme"]
+      }
+    },
+    {
+      "id": "central_021",
+      "document": "National Mission on Edible Oils Oil Palm NMEO-OP launched in 2021 provides incentives to farmers to grow oil palm trees and promotes the development of oil palm processing mills aiming to significantly reduce India's dependence on imported edible oils.",
+      "metadata": {
+        "scheme_name": "National Mission on Edible Oils – Oil Palm (NMEO-OP)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Incentives for Oil Palm Cultivation",
+        "eligibility": "Farmers willing to grow oil palm",
+        "launch_year": 2021,
+        "keywords": ["oil palm", "edible oil", "palm cultivation", "processing mill", "NMEO", "import substitution"],
+        "tags": ["oil palm", "edible oil", "cultivation incentive", "central scheme"]
+      }
+    },
+    {
+      "id": "central_022",
+      "document": "National Bamboo Mission NBM promotes holistic growth of the bamboo sector through area-based regionally differentiated strategy increasing area under bamboo plantation in non-forest government and private lands for additional farmer income.",
+      "metadata": {
+        "scheme_name": "National Bamboo Mission (NBM)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Bamboo Cultivation Support",
+        "eligibility": "Farmers with non-forest land",
+        "keywords": ["bamboo", "plantation", "non-forest land", "income diversification", "NBM", "agroforestry"],
+        "tags": ["bamboo", "plantation", "agroforestry", "income diversification", "central scheme"]
+      }
+    },
+    {
+      "id": "central_023",
+      "document": "National Beekeeping and Honey Mission NBHM launched in 2020 promotes scientific beekeeping and honey production. Provides training equipment and financial assistance to beekeepers. Honey production has increased from 12000 metric tons in 2019-20 to 20000 metric tons in 2022-23.",
+      "metadata": {
+        "scheme_name": "National Beekeeping and Honey Mission (NBHM)",
+        "level": "Central",
+        "state": "All India",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Training + Equipment + Financial Aid for Beekeeping",
+        "eligibility": "All farmers and beekeepers",
+        "launch_year": 2020,
+        "keywords": ["beekeeping", "honey", "apiculture", "training", "equipment", "NBHM", "income diversification"],
+        "tags": ["beekeeping", "honey", "apiculture", "training", "central scheme"]
+      }
+    },
+    {
+      "id": "up_001",
+      "document": "Mukhyamantri Krishak Durghatna Kalyan Yojana Uttar Pradesh protects farmers and their families from financial hardships caused by accidents during agricultural work. Launched September 14 2019 it provides assistance up to 5 lakh rupees in case of death or complete loss of both hands feet or eyes. Has benefited more than 63000 farmers.",
+      "metadata": {
+        "scheme_name": "Mukhyamantri Krishak Durghatna Kalyan Yojana",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "Accident Compensation",
+        "benefit_amount": "Up to ₹5 lakh (death or permanent disability)",
+        "eligibility": "Farmers and families affected by agricultural accidents",
+        "launch_year": 2019,
+        "keywords": ["accident", "death benefit", "disability", "compensation", "insurance", "krishak", "UP farmers"],
+        "tags": ["accident", "insurance", "death benefit", "disability", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_002",
+      "document": "Mukhyamantri Khet Surakhsha Yojana Uttar Pradesh protects farmers crops from damage caused by wild animals. The government provides a grant of 1.43 lakh rupees to install solar fencing using a 12 volt current system covering 60 percent of the cost per hectare. 50 crore rupees has been allocated for implementation.",
+      "metadata": {
+        "scheme_name": "Mukhyamantri Khet Surakhsha Yojana",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Grant for Solar Fencing",
+        "benefit_amount": "₹1.43 lakh grant; 60% of cost per hectare",
+        "eligibility": "Farmers facing crop damage from wild animals",
+        "keywords": ["wild animal", "crop protection", "solar fencing", "khet surakhsha", "animal damage", "fencing grant"],
+        "tags": ["crop protection", "fencing", "wild animals", "grant", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_003",
+      "document": "Mukhyamantri Krishak Kalyankari Yojana Uttar Pradesh provides financial assistance through the Mandi Parishad. Has extended financial assistance worth 134.76 crore rupees to 79796 farmers under this scheme.",
+      "metadata": {
+        "scheme_name": "Mukhyamantri Krishak Kalyankari Yojana",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "Financial Assistance via Mandi Parishad",
+        "benefit_amount": "₹134.76 crore disbursed to 79,796 farmers",
+        "eligibility": "Farmers registered with Mandi Parishad",
+        "keywords": ["kalyankari", "financial assistance", "mandi parishad", "krishak", "UP welfare"],
+        "tags": ["income support", "mandi", "welfare", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_004",
+      "document": "Soil Health Card Scheme Uttar Pradesh in 2024-25 the government distributed 66 lakh quintals of high-quality seeds 95 lakh metric tonnes of fertilizers and issued 8.5 lakh soil health cards enabling farmers to enhance soil fertility and optimize crop yields.",
+      "metadata": {
+        "scheme_name": "Soil Health Card Scheme (UP)",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Soil Testing + Seed & Fertilizer Distribution",
+        "benefit_amount": "66 lakh quintals seeds, 95 lakh MT fertilizers, 8.5 lakh soil cards (2024-25)",
+        "eligibility": "All UP farmers",
+        "keywords": ["soil health", "seed distribution", "fertilizer", "soil card", "soil testing", "UP farmers"],
+        "tags": ["soil", "seeds", "fertilizer", "testing", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_005",
+      "document": "Pest and Disease Control Scheme Krishi Raksha Yojana Uttar Pradesh provides grants including 75 percent subsidy maximum 500 rupees per hectare on bio-pesticides and bio-agents 75 percent subsidy maximum 150 rupees per hectare on seed treatment chemicals and 50 percent subsidy maximum 500 rupees per hectare on farm protection chemicals. All farmer categories including SC ST and women farmers are eligible.",
+      "metadata": {
+        "scheme_name": "Pest & Disease Control Scheme (Krishi Raksha Yojana)",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Subsidy on Pesticides and Crop Protection",
+        "benefit_amount": "75% subsidy on bio-pesticides; 50% on farm protection chemicals",
+        "eligibility": "All farmers including SC/ST and women",
+        "keywords": ["pest control", "disease", "bio-pesticide", "subsidy", "seed treatment", "crop protection", "krishi raksha"],
+        "tags": ["pest", "disease", "subsidy", "bio-pesticide", "SC/ST", "women", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_006",
+      "document": "Trained Agricultural Entrepreneur Swavalamban Agri Junction Scheme Uttar Pradesh has established 6608 agri-junctions functioning as one-stop service centres providing farmers with better access to inputs and services.",
+      "metadata": {
+        "scheme_name": "Trained Agricultural Entrepreneur Swavalamban Agri Junction Scheme",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Agri-Service Centres / Entrepreneurship",
+        "eligibility": "Trained agricultural entrepreneurs, farmers seeking inputs and services",
+        "keywords": ["agri junction", "service centre", "entrepreneur", "swavalamban", "one stop", "inputs", "UP farmers"],
+        "tags": ["service centre", "entrepreneurship", "inputs", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_007",
+      "document": "Drone Subsidy Scheme Uttar Pradesh the state introduced drones in agriculture offering a 40 to 50 percent subsidy to Farmer Producer Organizations and agricultural graduates.",
+      "metadata": {
+        "scheme_name": "Drone Subsidy Scheme (UP)",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Drone Subsidy",
+        "benefit_amount": "40-50% subsidy on drones",
+        "eligibility": "Farmer Producer Organizations (FPOs), agricultural graduates",
+        "keywords": ["drone", "subsidy", "FPO", "agricultural graduate", "technology", "UP drones", "precision farming"],
+        "tags": ["drone", "technology", "FPO", "subsidy", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_008",
+      "document": "UP Agriculture Export Policy approved in September 2019 aims to double agricultural exports from the state increase farmer income assess international markets and provide information on exportable products and global opportunities to farmers.",
+      "metadata": {
+        "scheme_name": "UP Agriculture Export Policy",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Market Access & Selling",
+        "benefit_type": "Export Promotion Policy",
+        "eligibility": "All UP farmers with exportable produce",
+        "launch_year": 2019,
+        "keywords": ["export", "international market", "agri export", "income doubling", "global market", "UP export policy"],
+        "tags": ["export", "market", "income", "policy", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_009",
+      "document": "e-Mandi and Digital Mandi Reforms Uttar Pradesh by January 2025 digital transactions worth 6999 crore rupees had been completed across 125 mandis. As part of the e-Mandi initiative 922 e-licenses were issued and over 4.18 crore online slips were generated.",
+      "metadata": {
+        "scheme_name": "e-Mandi & Digital Mandi Reforms (UP)",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Market Access & Selling",
+        "benefit_type": "Digital Mandi / Online Trade Platform",
+        "eligibility": "All UP farmers selling produce at mandis",
+        "keywords": ["e-mandi", "digital mandi", "online trading", "mandi reform", "e-license", "digital transaction"],
+        "tags": ["market", "digital", "mandi", "selling", "UP scheme"]
+      }
+    },
+    {
+      "id": "up_010",
+      "document": "UP AGREES World Bank Project Uttar Pradesh launched in collaboration with the World Bank this landmark initiative benefits farmers in 21 Purvanchal and 7 districts of Bundelkhand.",
+      "metadata": {
+        "scheme_name": "UP AGREES (World Bank Project)",
+        "level": "State",
+        "state": "Uttar Pradesh",
+        "category": "Market Access & Selling",
+        "benefit_type": "Agricultural Development (World Bank Funded)",
+        "eligibility": "Farmers in 21 Purvanchal districts and 7 Bundelkhand districts",
+        "keywords": ["World Bank", "UP AGREES", "Purvanchal", "Bundelkhand", "agriculture development", "international funding"],
+        "tags": ["World Bank", "development", "Purvanchal", "Bundelkhand", "UP scheme"]
+      }
+    },
+    {
+      "id": "mp_001",
+      "document": "MP Mukhyamantri Krishak Fasal Uparjan Sahayata Yojana Madhya Pradesh implemented to ensure farmers receive fair prices for their crops. Supports farmers by addressing operational losses in grain procurement ensuring farmers get the full Minimum Support Price of 5328 rupees per quintal.",
+      "metadata": {
+        "scheme_name": "MP Mukhyamantri Krishak Fasal Uparjan Sahayata Yojana",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "MSP Procurement / Price Support",
+        "benefit_amount": "₹5,328 per quintal MSP guarantee",
+        "eligibility": "All MP farmers selling grains",
+        "keywords": ["MSP", "procurement", "fasal uparjan", "fair price", "grain procurement", "MP farmers", "price support"],
+        "tags": ["MSP", "procurement", "price support", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_002",
+      "document": "Bhavantar Bhugtan Yojana Madhya Pradesh launched by the MP government compensates farmers when the market price of their produce goes below the MSP. The difference is deposited directly into the farmer's bank account.",
+      "metadata": {
+        "scheme_name": "Bhavantar Bhugtan Yojana (MP)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "Price Deficiency Payment / DBT",
+        "eligibility": "All MP farmers; activates when market price < MSP",
+        "keywords": ["bhavantar", "price deficiency", "MSP difference", "direct bank transfer", "market price", "compensation", "MP farmers"],
+        "tags": ["price support", "DBT", "compensation", "MSP", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_003",
+      "document": "MP Kisan Kalyan Mission 2024-25 Madhya Pradesh announced on Independence Day 2024 by Chief Minister Mohan Yadav launched November 1 2024. Farmers get help with advanced farming techniques seeds fertilizers and equipment. Experts provide training to increase crop production. Also covers horticulture crop insurance loans and technical support.",
+      "metadata": {
+        "scheme_name": "MP Kisan Kalyan Mission (2024–25)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "Comprehensive Mission — Training + Inputs + Insurance + Loans",
+        "eligibility": "All MP farmers",
+        "launch_year": 2024,
+        "keywords": ["kisan kalyan", "training", "seeds", "fertilizer", "equipment", "horticulture", "crop insurance", "loan", "MP mission"],
+        "tags": ["comprehensive", "training", "seeds", "fertilizer", "insurance", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_004",
+      "document": "Madhya Pradesh Organic Farming Mission MPOFM promotes organic farming practices among farmers advocating for sustainable agriculture and fostering better health outcomes for farmers and consumers.",
+      "metadata": {
+        "scheme_name": "Madhya Pradesh Organic Farming Mission (MPOFM)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Organic Farming Promotion",
+        "eligibility": "All MP farmers willing to adopt organic farming",
+        "keywords": ["organic farming", "sustainable agriculture", "chemical free", "health", "MPOFM", "MP organic"],
+        "tags": ["organic", "sustainable", "health", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_005",
+      "document": "National Mission on Natural Farming implementation in Madhya Pradesh guides farmers towards Zero Budget Natural Farming using cow dung cow urine Jeevamrit Beejamrit and Ghanjeevamrit. Improves soil fertility reduces production costs and ensures naturally safe crops. Training camps organized in selected blocks of every district.",
+      "metadata": {
+        "scheme_name": "National Mission on Natural Farming (MP Implementation)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Natural Farming Training + Support",
+        "eligibility": "All MP farmers",
+        "keywords": ["zero budget natural farming", "ZBNF", "jeevamrit", "beejamrit", "cow dung", "cow urine", "soil fertility", "natural farming", "training"],
+        "tags": ["natural farming", "ZBNF", "training", "soil", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_006",
+      "document": "Chief Minister Agriculture and Rural Development Scheme CMKGY Madhya Pradesh focused on rural areas and overall agricultural development offering financial support for agricultural mechanisation crop diversification and post-harvest activities.",
+      "metadata": {
+        "scheme_name": "Chief Minister Agriculture & Rural Development Scheme (CMKGY)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Infrastructure & Storage",
+        "benefit_type": "Financial Support for Mechanisation + Post-Harvest",
+        "eligibility": "Rural farmers in Madhya Pradesh",
+        "keywords": ["CMKGY", "rural development", "mechanisation", "crop diversification", "post harvest", "MP rural"],
+        "tags": ["rural", "mechanisation", "diversification", "post-harvest", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_007",
+      "document": "Atmanirbhar MP Agriculture Infrastructure Fund Madhya Pradesh post-harvest projects such as warehouse construction processing units and e-mandi approved. Loan facility provided to cooperatives at 1 percent interest rate. 239 projects worth 57.28 crore rupees sanctioned by district banks.",
+      "metadata": {
+        "scheme_name": "Atmanirbhar MP — Agriculture Infrastructure Fund",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Infrastructure & Storage",
+        "benefit_type": "Low-Interest Loan for Post-Harvest Infrastructure",
+        "benefit_amount": "1% interest loans for cooperatives; ₹57.28 crore for 239 projects",
+        "eligibility": "Cooperatives, farmer groups in MP",
+        "keywords": ["warehouse", "processing unit", "e-mandi", "cooperative", "1% loan", "infrastructure", "atmanirbhar", "MP storage"],
+        "tags": ["warehouse", "storage", "cooperative", "loan", "post-harvest", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_008",
+      "document": "Bhandar Grih Nirman Yojana Godown Construction Madhya Pradesh started to increase storage capacity in rural areas. Government land allotted free of cost to Primary Agricultural Credit Societies PACS for godown construction with 50 percent loan 20 percent NCDC subsidy and 30 percent state government subsidy.",
+      "metadata": {
+        "scheme_name": "Bhandar Grih Nirman Yojana (Godown Construction)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Infrastructure & Storage",
+        "benefit_type": "Godown Construction Subsidy + Loan",
+        "benefit_amount": "50% loan + 20% NCDC subsidy + 30% state subsidy; free government land",
+        "eligibility": "Primary Agricultural Credit Societies (PACS)",
+        "keywords": ["godown", "storage", "warehouse construction", "PACS", "rural storage", "NCDC subsidy", "bhandar"],
+        "tags": ["godown", "storage", "PACS", "subsidy", "MP scheme"]
+      }
+    },
+    {
+      "id": "mp_009",
+      "document": "Ladli Behna Yojana Madhya Pradesh provides monthly financial assistance of 1250 rupees to eligible women aged 21 to 60. Encourages participation of women in family farming and allied activities improving decision-making power and investments in backyard farming poultry dairy and small-scale agricultural enterprises.",
+      "metadata": {
+        "scheme_name": "Ladli Behna Yojana (MP)",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "category": "Income Support & Credit",
+        "benefit_type": "Monthly Cash Transfer for Women",
+        "benefit_amount": "₹1,250/month",
+        "eligibility": "Women aged 21-60 years in MP",
+        "keywords": ["women", "monthly assistance", "ladli behna", "backyard farming", "poultry", "dairy", "women empowerment", "MP women"],
+        "tags": ["women", "cash transfer", "monthly", "empowerment", "poultry", "dairy", "MP scheme"]
+      }
+    },
+    {
+      "id": "pb_001",
+      "document": "Crop Residue Management CRM Loan Scheme Punjab introduced by CM Bhagwant Mann through cooperative banks provides farmers with CRM machines with a 50 to 80 percent subsidy on costs. Since 2018 over 1.58 lakh CRM machine units provided to farmers with more than 16000 sanction letters issued in 2025. Stubble burning incidents declined 53 percent in Kharif season 2025.",
+      "metadata": {
+        "scheme_name": "Crop Residue Management (CRM) Loan Scheme",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Subsidy on CRM Machinery",
+        "benefit_amount": "50-80% subsidy on CRM machines",
+        "eligibility": "All Punjab farmers",
+        "keywords": ["stubble burning", "parali", "crop residue", "CRM machine", "environment", "pollution", "residue management", "Punjab"],
+        "tags": ["stubble", "residue", "environment", "machinery", "subsidy", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_002",
+      "document": "Direct Seeding of Rice DSR Incentive Punjab supported by a 1500 rupees per acre incentive for water-conserving DSR technology. Adoption increased 17 percent with area under DSR rising from 2.53 lakh acres in 2024 to 2.96 lakh acres in 2025 marking a crucial milestone in groundwater preservation.",
+      "metadata": {
+        "scheme_name": "Direct Seeding of Rice (DSR) Incentive",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Per-Acre Cash Incentive",
+        "benefit_amount": "₹1,500 per acre incentive",
+        "eligibility": "Punjab paddy farmers adopting DSR technology",
+        "keywords": ["DSR", "direct seeding", "rice", "water conservation", "groundwater", "paddy", "incentive", "Punjab rice"],
+        "tags": ["DSR", "rice", "water", "incentive", "groundwater", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_003",
+      "document": "Kharif Maize Diversification Pilot Punjab a pilot project in six districts Sangrur Bathinda Gurdaspur Jalandhar Kapurthala and Pathankot successfully transitioned over 11000 acres from paddy to Kharif maize supported by a 17500 rupees per hectare incentive plus 10000 rupees per hectare for inputs under RKVY.",
+      "metadata": {
+        "scheme_name": "Kharif Maize Diversification Pilot",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Diversification Incentive",
+        "benefit_amount": "₹17,500/hectare + ₹10,000/hectare for inputs (RKVY)",
+        "eligibility": "Farmers in Sangrur, Bathinda, Gurdaspur, Jalandhar, Kapurthala, Pathankot transitioning from paddy to maize",
+        "keywords": ["maize", "crop diversification", "paddy alternative", "kharif", "pilot", "Punjab diversification"],
+        "tags": ["maize", "diversification", "incentive", "paddy", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_004",
+      "document": "BT Cotton Seed Subsidy Punjab cotton cultivation grew by 20 percent reaching 1.19 lakh hectares fuelled by a 33 percent government subsidy on BT cotton seeds recommended by Punjab Agricultural University.",
+      "metadata": {
+        "scheme_name": "BT Cotton Seed Subsidy (Punjab)",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Soil Health & Farming Practices",
+        "benefit_type": "Seed Subsidy",
+        "benefit_amount": "33% subsidy on BT cotton seeds",
+        "eligibility": "Punjab cotton farmers",
+        "keywords": ["BT cotton", "cotton", "seed subsidy", "Punjab agriculture university", "cotton cultivation"],
+        "tags": ["cotton", "seed", "subsidy", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_005",
+      "document": "KCC Punjab Special Implementation Punjab's 25 lakh KCC holders access 40000 to 50000 crore rupees annually at a subsidised 4 percent interest rate. PM-KISAN injects 1380 crore rupees yearly into 23 lakh farmers accounts. The 2025-26 Budget increased KCC loan limits from 3 lakh to 5 lakh rupees.",
+      "metadata": {
+        "scheme_name": "KCC — Punjab Special Implementation",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Income Support & Credit",
+        "benefit_type": "Credit at Subsidised Rate",
+        "benefit_amount": "Up to ₹5 lakh at 4% interest rate (2025-26)",
+        "eligibility": "All Punjab farmers with KCC",
+        "keywords": ["kisan credit card", "KCC", "low interest", "credit", "loan", "4% interest", "Punjab farmers", "PM KISAN"],
+        "tags": ["credit", "KCC", "loan", "interest subsidy", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_006",
+      "document": "MSP Procurement Guarantee Wheat and Paddy Punjab MSP stands at 2425 rupees per quintal for wheat and 2300 rupees for paddy for 2024-25. The Food Corporation of India procures 92 percent of Punjab's rice and 72 percent of its wheat at MSP ensuring farmer income stability.",
+      "metadata": {
+        "scheme_name": "MSP Procurement Guarantee (Wheat & Paddy) — Punjab",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Income Support & Credit",
+        "benefit_type": "MSP-Based Procurement",
+        "benefit_amount": "₹2,425/quintal wheat; ₹2,300/quintal paddy (2024-25)",
+        "eligibility": "All Punjab wheat and paddy farmers",
+        "keywords": ["MSP", "procurement", "wheat", "paddy", "FCI", "guaranteed price", "Punjab MSP", "income stability"],
+        "tags": ["MSP", "procurement", "wheat", "paddy", "income", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "pb_007",
+      "document": "PMFME Scheme Punjab Agro total outlay of 306 crore rupees over six years 2020-21 to 2025-26 shared 60 to 40 between central and state governments. Target is to provide financial assistance to 7373 food processing units. Individual subsidy 35 percent of eligible project cost maximum 10 lakh rupees.",
+      "metadata": {
+        "scheme_name": "PMFME Scheme (Punjab Agro)",
+        "level": "State",
+        "state": "Punjab",
+        "category": "Infrastructure & Storage",
+        "benefit_type": "Food Processing Unit Subsidy",
+        "benefit_amount": "35% subsidy up to ₹10 lakh per unit",
+        "eligibility": "Food processing entrepreneurs and farmer-entrepreneurs in Punjab",
+        "launch_year": 2020,
+        "keywords": ["food processing", "PMFME", "agro processing", "subsidy", "processing unit", "value addition", "Punjab agro"],
+        "tags": ["food processing", "subsidy", "value addition", "agro", "Punjab scheme"]
+      }
+    },
+    {
+      "id": "mh_001",
+      "document": "Maharashtra AI Agriculture Policy Maharashtra introduced India's first dedicated AI Agriculture Policy with a 500 crore rupee budget to bring Artificial Intelligence and automation to farming. Support from 4 state agriculture universities and startup hubs. Target to benefit 50000 plus farmers and 1 lakh acres of land.",
+      "metadata": {
+        "scheme_name": "Maharashtra AI Agriculture Policy",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "AI-Driven Agricultural Services",
+        "benefit_amount": "₹500 crore budget",
+        "eligibility": "Farmers in Maharashtra (target: 50,000+)",
+        "launch_year": 2025,
+        "keywords": ["artificial intelligence", "AI farming", "automation", "technology", "digital agriculture", "Maharashtra innovation", "startup"],
+        "tags": ["AI", "technology", "innovation", "digital", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_002",
+      "document": "Agristack Agricultural Digital Public Infrastructure Maharashtra a new initiative to ensure efficient digital service delivery of government schemes to farmers creating digital identity databases covering land details crop history subsidy access and insurance records.",
+      "metadata": {
+        "scheme_name": "Agristack — Agricultural Digital Public Infrastructure (Maharashtra)",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Digital Identity / Service Delivery",
+        "eligibility": "All Maharashtra farmers",
+        "keywords": ["agristack", "digital identity", "land records", "crop history", "subsidy access", "insurance records", "DPI", "Maharashtra digital"],
+        "tags": ["digital", "identity", "records", "infrastructure", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_003",
+      "document": "MahaDBT Farmer Scheme Maharashtra state government provides subsidies to all farmers to purchase heavy machinery. General category farmers receive 40 percent subsidy and SC ST farmers receive 50 percent subsidy. Applications submitted online at home without visiting a government office.",
+      "metadata": {
+        "scheme_name": "MahaDBT Farmer Scheme",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Machinery Subsidy via DBT",
+        "benefit_amount": "40% subsidy (general); 50% subsidy (SC/ST)",
+        "eligibility": "All Maharashtra farmers; higher subsidy for SC/ST",
+        "apply_url": "MahaDBT Portal (online)",
+        "keywords": ["MahaDBT", "machinery subsidy", "SC ST", "online application", "farm equipment", "DBT", "Maharashtra subsidy"],
+        "tags": ["machinery", "subsidy", "SC/ST", "DBT", "online", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_004",
+      "document": "State Agriculture Mechanisation Scheme Maharashtra provides financial assistance for tractors power tillers drip irrigation sprinkler systems greenhouses and other farm machinery through the MahaDBT portal with first-come-first-served priority from 2025-26.",
+      "metadata": {
+        "scheme_name": "State Agriculture Mechanisation Scheme (Maharashtra)",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Subsidy on Farm Machinery & Irrigation",
+        "eligibility": "All Maharashtra farmers (first-come-first-served)",
+        "apply_url": "MahaDBT Portal",
+        "keywords": ["tractor", "power tiller", "drip irrigation", "sprinkler", "greenhouse", "mechanisation", "Maharashtra machinery"],
+        "tags": ["tractor", "drip", "sprinkler", "greenhouse", "machinery", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_005",
+      "document": "Mukhyamantri Solar Krishi Vahini Yojana Maharashtra aims to become the first state to make all agricultural power lines solar-powered. In nine months 119 power lines with 147 MW cumulative solar capacity operationalised. Over 1 lakh solar water pumps being installed.",
+      "metadata": {
+        "scheme_name": "Mukhyamantri Solar Krishi Vahini Yojana",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Irrigation & Water",
+        "benefit_type": "Solar Pump + Solar Agricultural Power",
+        "benefit_amount": "1 lakh solar water pumps being installed",
+        "eligibility": "All Maharashtra farmers",
+        "keywords": ["solar", "solar pump", "renewable energy", "power line", "agricultural power", "electricity", "Maharashtra solar"],
+        "tags": ["solar", "energy", "pump", "electricity", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_006",
+      "document": "Bhavantar Yojana Maharashtra launched to guarantee minimum support prices for crops protecting farmers from severe market price fluctuations. Ensures farmers receive fair prices regardless of market conditions. Uses satellite-based crop monitoring and digital payment systems for implementation.",
+      "metadata": {
+        "scheme_name": "Bhavantar Yojana (Maharashtra)",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Income Support & Credit",
+        "benefit_type": "Price Deficiency Payment",
+        "eligibility": "All Maharashtra farmers selling notified crops",
+        "keywords": ["bhavantar", "MSP", "price protection", "market fluctuation", "satellite monitoring", "digital payment", "Maharashtra MSP"],
+        "tags": ["price support", "MSP", "market", "satellite", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_007",
+      "document": "One Taluka One Agricultural Market Committee Scheme Maharashtra being implemented to ensure fair agricultural trade with over 700000 metric tonnes of paddy and 171 metric tonnes of coarse grains procured in the 2024-25 Kharif marketing season.",
+      "metadata": {
+        "scheme_name": "One Taluka One Agricultural Market Committee Scheme",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Market Access & Selling",
+        "benefit_type": "Market Access / Procurement",
+        "eligibility": "Farmers in every taluka of Maharashtra",
+        "keywords": ["market committee", "taluka", "APMC", "paddy procurement", "coarse grains", "fair trade", "Maharashtra market"],
+        "tags": ["market", "APMC", "procurement", "paddy", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_008",
+      "document": "Natural Calamity Relief Maharashtra the government swiftly provided relief to farmers affected by natural calamities distributing 814 crore rupees to more than 7.8 lakh farmers in 2024-25.",
+      "metadata": {
+        "scheme_name": "Natural Calamity Relief (Maharashtra)",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Crop Insurance & Risk Protection",
+        "benefit_type": "Disaster Relief Cash Compensation",
+        "benefit_amount": "₹814 crore to 7.8 lakh farmers (2024-25)",
+        "eligibility": "Maharashtra farmers affected by natural calamities",
+        "keywords": ["natural calamity", "disaster", "flood", "drought", "relief", "compensation", "Maharashtra relief"],
+        "tags": ["disaster", "relief", "flood", "drought", "compensation", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_009",
+      "document": "Dr Babasaheb Ambedkar Krishi Swalamban Yojana Maharashtra provides financial assistance specifically to SC farmers for irrigation infrastructure including wells pumps and drip systems helping the most marginalised farming communities.",
+      "metadata": {
+        "scheme_name": "Dr. Babasaheb Ambedkar Krishi Swalamban Yojana",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Irrigation & Water",
+        "benefit_type": "Irrigation Infrastructure for SC Farmers",
+        "eligibility": "SC (Scheduled Caste) farmers in Maharashtra",
+        "keywords": ["SC farmers", "scheduled caste", "well", "pump", "drip irrigation", "irrigation", "marginalised", "ambedkar"],
+        "tags": ["SC", "scheduled caste", "irrigation", "well", "drip", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "mh_010",
+      "document": "Honey Cafe and Beekeeping Scheme Maharashtra establishes Honey Cafes in tourist locations like Mahabaleshwar and Lonavala. Government purchase rate is 500 rupees per kg for honey and 300 rupees per kg for wax. Helps farmers diversify income.",
+      "metadata": {
+        "scheme_name": "Honey Café & Beekeeping Scheme (Maharashtra)",
+        "level": "State",
+        "state": "Maharashtra",
+        "category": "Specialised Crop Missions",
+        "benefit_type": "Beekeeping Support + Market Access",
+        "benefit_amount": "₹500/kg for honey; ₹300/kg for wax",
+        "eligibility": "Beekeepers and farmers in Maharashtra",
+        "keywords": ["honey cafe", "beekeeping", "honey", "wax", "income diversification", "Mahabaleshwar", "Lonavala", "apiculture"],
+        "tags": ["beekeeping", "honey", "income", "tourism", "Maharashtra scheme"]
+      }
+    },
+    {
+      "id": "wb_001",
+      "document": "Krishak Bandhu Natun Scheme West Bengal flagship scheme for farmers with 1 acre or more of land who get 10000 rupees every year split into two payments for Kharif June and Rabi November seasons. Those with less than 1 acre receive money on a pro-rata basis with a minimum of 4000 rupees per year. Since inception in 2019 the scheme has disbursed a total of 24086 crore rupees. For Kharif 2025 2930 crore rupees is being transferred to about 1.09 crore farmers.",
+      "metadata": {
+        "scheme_name": "Krishak Bandhu (Natun) Scheme",
+        "level": "State",
+        "state": "West Bengal",
+        "category": "Income Support & Credit",
+        "benefit_type": "Direct Cash Transfer (Seasonal)",
+        "benefit_amount": "₹10,000/year (≥1 acre); ₹4,000/year minimum (<1 acre)",
+        "eligibility": "All registered farmers in West Bengal",
+        "launch_year": 2019,
+        "keywords": ["krishak bandhu", "income support", "cash transfer", "kharif", "rabi", "West Bengal farmers", "seasonal payment", "small farmers"],
+        "tags": ["income", "cash transfer", "seasonal", "kharif", "rabi", "WB scheme"]
+      }
+    },
+    {
+      "id": "wb_002",
+      "document": "Krishak Bandhu Death Benefit Scheme West Bengal provides one-time financial grant of 2 lakh rupees to the next of kin in case of untimely demise of a registered farmer between ages 18 to 60. Insurance payout processed within 15 days of the farmer's death. Covers even death by suicide.",
+      "metadata": {
+        "scheme_name": "Krishak Bandhu Death Benefit Scheme",
+        "level": "State",
+        "state": "West Bengal",
+        "category": "Crop Insurance & Risk Protection",
+        "benefit_type": "Death Benefit / Life Insurance",
+        "benefit_amount": "₹2,00,000 one-time grant",
+        "eligibility": "Next of kin of registered WB farmers aged 18-60",
+        "keywords": ["death benefit", "life insurance", "farmer death", "family support", "krishak bandhu", "suicide coverage"],
+        "tags": ["death benefit", "insurance", "family", "compensation", "WB scheme"]
+      }
+    },
+    {
+      "id": "wb_003",
+      "document": "Krishak Bandhu Smart Card West Bengal the government provides a digitised Krishak Bandhu Smart Card to every eligible farmer serving as their single digital identity for all state government schemes. Helps with direct transfer of all scheme benefits to the farmer's bank account ensuring full transparency.",
+      "metadata": {
+        "scheme_name": "Krishak Bandhu Smart Card",
+        "level": "State",
+        "state": "West Bengal",
+        "category": "Technology & Mechanisation",
+        "benefit_type": "Digital Identity Card for Scheme Access",
+        "eligibility": "All registered WB farmers",
+        "keywords": ["smart card", "digital identity", "DBT", "scheme access", "transparent", "krishak bandhu card", "West Bengal digital"],
+        "tags": ["digital", "identity", "smart card", "DBT", "WB scheme"]
+      }
+    },
+    {
+      "id": "wb_004",
+      "document": "State Paddy Procurement Preference West Bengal farmers registered in the Krishak Bandhu scheme get preference in the State Government's paddy procurement scheme implemented by the Food and Supplies Department.",
+      "metadata": {
+        "scheme_name": "State Paddy Procurement Preference (West Bengal)",
+        "level": "State",
+        "state": "West Bengal",
+        "category": "Market Access & Selling",
+        "benefit_type": "Priority Paddy Procurement",
+        "eligibility": "Krishak Bandhu-registered farmers in WB",
+        "keywords": ["paddy procurement", "paddy", "krishak bandhu preference", "food supplies", "MSP", "West Bengal paddy"],
+        "tags": ["paddy", "procurement", "priority", "market", "WB scheme"]
+      }
+    },
+    {
+      "id": "wb_005",
+      "document": "Lakshmir Bhandar Scheme West Bengal a woman member of a farmer's family can apply for this scheme and receive monthly financial assistance providing supplementary income to farming households.",
+      "metadata": {
+        "scheme_name": "Lakshmir Bhandar Scheme",
+        "level": "State",
+        "state": "West Bengal",
+        "category": "Income Support & Credit",
+        "benefit_type": "Monthly Cash Transfer for Women",
+        "eligibility": "Women members of farming families in West Bengal",
+        "keywords": ["lakshmir bhandar", "women", "monthly assistance", "supplementary income", "family support", "West Bengal women"],
+        "tags": ["women", "monthly", "cash transfer", "family", "WB scheme"]
+      }
+    }
+  ],
+  "total_schemes": 55,
+  "schema_notes": {
+    "id_format": "<state_code>_<serial_number> (central = 'central', up = Uttar Pradesh, mp = Madhya Pradesh, pb = Punjab, mh = Maharashtra, wb = West Bengal)",
+    "chromadb_usage": {
+      "embed_field": "document",
+      "filter_fields": ["level", "state", "category", "benefit_type", "eligibility"],
+      "search_fields": ["keywords", "tags"],
+      "recommended_embedding_model": "text-embedding-3-small or any multilingual model for Hindi keywords"
+    },
+    "suggested_filters_for_portal": [
+      "state (Central / UP / MP / Punjab / Maharashtra / West Bengal)",
+      "category (Income Support, Insurance, Irrigation, Soil, Market, Infrastructure, Technology, Specialised Crops)",
+      "benefit_type (Cash Transfer, Loan, Subsidy, Insurance, Training, Market Access)",
+      "farmer_type (Small/Marginal, SC/ST, Women, All)"
+    ]
+  }
+}
