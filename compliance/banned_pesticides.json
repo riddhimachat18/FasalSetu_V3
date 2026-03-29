@@ -1,0 +1,12 @@
+{
+  "banned": [
+    "Endosulfan", "Monocrotophos", "Methyl Parathion", "Phosphamidon",
+    "Triazophos", "Chlorpyrifos", "Dichlorvos", "Aluminium Phosphide",
+    "Methomyl", "Carbofuran"
+  ],
+  "restricted": {
+    "Glyphosate": "Not permitted on food crops without state approval",
+    "Atrazine": "Restricted to maize and sugarcane only",
+    "2,4-D": "Do not apply within 100m of water bodies"
+  }
+}

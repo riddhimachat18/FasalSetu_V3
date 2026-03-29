@@ -1,0 +1,49 @@
+{
+  "features": [
+    "soil_conductivity",
+    "soil_humidity",
+    "soil_pH",
+    "soil_temperature",
+    "hour",
+    "day_of_year"
+  ],
+  "targets": [
+    "nitrogen",
+    "phosphorus",
+    "potassium"
+  ],
+  "regression": {
+    "nitrogen": {
+      "r2": 0.1108,
+      "cv_r2_mean": 0.1178,
+      "cv_r2_std": 0.0089,
+      "mae": 0.0577,
+      "mae_pct_range": 15.6,
+      "target_range": 0.37,
+      "top_feature": "soil_temperature"
+    },
+    "phosphorus": {
+      "r2": 0.1607,
+      "cv_r2_mean": 0.1583,
+      "cv_r2_std": 0.0057,
+      "mae": 0.0641,
+      "mae_pct_range": 16.0,
+      "target_range": 0.4,
+      "top_feature": "soil_pH"
+    },
+    "potassium": {
+      "r2": 0.1406,
+      "cv_r2_mean": 0.1373,
+      "cv_r2_std": 0.0081,
+      "mae": 0.0634,
+      "mae_pct_range": 16.3,
+      "target_range": 0.39,
+      "top_feature": "soil_conductivity"
+    }
+  },
+  "sqi_classifier": {
+    "macro_f1": 0.47,
+    "threshold": 0.9
+  },
+  "note": "R\u00b2 is low by design \u2014 the NPK sensor values in this single-field IoT dataset have <0.4 unit range. MAE % of range is the meaningful metric. SQI binary classifier is the recommended downstream task."
+}

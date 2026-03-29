@@ -1,0 +1,55 @@
+# ═══════════════════════════════════════════════════════
+#  FasalSetu — requirements.txt
+#  Audited against actual imports in every project file.
+#  Grouped by component so you can trim unused sections.
+# ═══════════════════════════════════════════════════════
+
+# ── API server ───────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9          # required for UploadFile in FastAPI
+pydantic>=2.7.0,<3.0.0
+pydantic-core>=2.18.0,<3.0.0
+
+# ── Environment / config ─────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Agent framework (orchestrator.py) ────────────────────
+google-adk>=1.0.0                # Agent, Runner, InMemorySessionService
+google-generativeai>=0.8.0       # genai_types (Content, Part) — pulled by google-adk
+
+# ── ML / NPK model (train_npk_model.py + soil_agent.py) ──
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0         # SMOTE — only needed if re-running old training scripts
+joblib>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# ── Computer vision (disease_agent.py + Colab training) ──
+torch>=2.2.0
+torchvision>=0.17.0
+Pillow>=10.0.0                   # PIL.Image
+
+# ── Market agent (market_agent.py) ───────────────────────
+requests>=2.31.0                 # agmarknet API calls + weather fallback
+
+# ── Scheme agent + ingest_schemes.py ─────────────────────
+# Skip these if you are not ingesting government scheme PDFs yet.
+chromadb>=0.5.0
+sentence-transformers>=2.7.0     # HuggingFaceEmbeddings in scheme_agent
+pymupdf>=1.24.0                  # fitz — PDF text extraction in ingest_schemes.py
+langchain-community>=0.3.0       # HuggingFaceEmbeddings wrapper
+
+# ── Voice agent (voice_agent.py) ─────────────────────────
+# Skip if you are not using voice features.
+openai-whisper>=20231117         # audio transcription
+gTTS>=2.5.0                      # text-to-speech
+deep-translator>=1.11.0          # translation
+
+# ── Logging ──────────────────────────────────────────────
+python-json-logger>=2.0.7        # JsonFormatter in logging_config.py
+
+# ── Testing ──────────────────────────────────────────────
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0                    # FastAPI TestClient dependency
